@@ -1,6 +1,5 @@
 #include "include/shared_data_access_wrapper.h"
 
-#include <atomic>
 #include <future>
 #include <iostream>
 #include <mutex>
