@@ -1,12 +1,3 @@
-# sdaw
-
-sdaw is a header-only library for simple mutex-protected access of data.
-
-# Usage sample
-
-## demo.cpp
-
-```cpp
 #include "include/shared_data_access_wrapper.h"
 
 #include <atomic>
@@ -70,5 +61,3 @@ int main()
                                             std::cout << "shared data modified\n";
                                         });
 }
-
-```
